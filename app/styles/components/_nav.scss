@@ -9,15 +9,11 @@
 }
 
 .active {
-	// background: $dark-primary;
   border-bottom: 4px solid $accent;
   line-height: 2.4 !important;
   color: $text-icons !important;
-  // text-shadow: 0px 0px 7px darken($teal, 12%);
   @media (max-width: $break-small) {
     line-height: 1.7 !important;
-    // font-size: 1.3em;
-    // padding: .25em .3em;
   }
 }
 
@@ -57,4 +53,12 @@
   }
 }
 
-.top-bar-left, .top-bar-right {width: initial;}
+.top-bar-left, .top-bar-right {
+  width: initial;
+  @media (max-width: $break-small) {
+    display: flex;
+    justify-content: center;
+    float: inherit;
+  }
+
+}
