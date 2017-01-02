@@ -15,6 +15,12 @@
   @media (max-width: $break-small) {
     line-height: 1.7 !important;
   }
+  .sm {
+    @media (max-width: $break-xsmall) {
+      font-size: .85em;;
+      line-height: 1.0 !important;
+    }
+  }
 }
 
 .cursive {
@@ -28,8 +34,11 @@
 
     @media (max-width: $break-small) {
       line-height: 1.65;
-      font-size: 1.3em;
+      font-size: 1.5em;
       padding: .25em .3em;
+    }
+    @media (max-width: $break-xsmall) {
+      line-height: 1.4;
     }
   }
 }
@@ -41,13 +50,25 @@
       color: $light-primary;
       font-weight: bold;
       padding: .7rem 1rem;
-      // text-transform: uppercase;
+
+      .xs {
+        display: none;
+        text-align: center;
+        font-size: 1.5em;
+
+        @media (max-width: $break-xsmall) {
+          display: block;
+        }
+      }
 
       @media (max-width: $break-small) {
         line-height: 1.9;
         font-size: .95rem;
         padding: .6rem .7rem;
         font-weight: 100;
+      }
+      @media (max-width: $break-xsmall) {
+        font-size: .7em;;
       }
     }
   }

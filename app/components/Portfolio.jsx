@@ -4,10 +4,11 @@ const Portfolio = React.createClass({
   render () {
     return (
       <div className="row">
-        <div className="medium-10 medium-offset-1 columns pg-content">
-          <div>
+        <div className="medium-10 medium-offset-1 columns">
+          <h1>Portfolio</h1>
+          <div className="pg-content">
             <div className="row">
-              <h1>Portfolio</h1>
+
               <div className="medium-3 small-6 columns">
                 <h5>Something 1</h5>
                 <div>

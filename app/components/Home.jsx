@@ -7,7 +7,7 @@ const Home = React.createClass({
         <div className="">
 
           <div className="medium-10 medium-offset-1 columns ">
-            <h1>Hi. I&#39;m Miranda</h1>
+            <h2>Hi. I&#39;m <strong>Miranda Kapin</strong></h2>
             <div className="pg-content">
 
               <div className="row">
@@ -25,7 +25,7 @@ const Home = React.createClass({
                 </div>
                 <div className="medium-3 small-12 columns">
                   <div className="row">
-                    <figure className="small-4 small-offset-4 medium-12 medium-offset-0 columns"><img className="circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/171/138/261fcf7.jpg" alt="Miranda Kapin image" /></figure>
+                    <figure className="small-4 small-offset-4 medium-12 medium-offset-0 columns"><img className="" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/171/138/261fcf7.jpg" alt="Miranda Kapin image" /></figure>
                   </div>
                 </div>
               </div>

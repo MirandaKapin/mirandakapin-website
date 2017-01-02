@@ -16,11 +16,9 @@ var Main = React.createClass({
   componentDidMount: function() {
 
     Events.scrollEvent.register('begin', function() {
-      console.log("begin", arguments);
     });
 
     Events.scrollEvent.register('end', function() {
-      console.log("end", arguments);
     });
 
     scrollSpy.update();
@@ -39,7 +37,7 @@ var Main = React.createClass({
         <Sticky>
           <Nav/>
         </Sticky>
-
+        {/*<div className="space"></div>*/}
 
         <Element name="home" className="element" >
           <Home />
@@ -47,6 +45,14 @@ var Main = React.createClass({
 
         <Element name="portfolio" className="element">
           <Portfolio />
+        </Element>
+
+        <Element name="experience" className="element">
+          Experience
+        </Element>
+
+        <Element name="education" className="element">
+          Education
         </Element>
 
         <Element name="contact" className="element">

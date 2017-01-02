@@ -29,7 +29,10 @@ $divider-color: $light-grey;
 
 // fonts
 $cursive: Pacifico, sans-serif;
-$main-font: 'Roboto', sans-serif;
+// $main-font: 'Roboto', sans-serif;
+$main-font: 'Open Sans', sans-serif;
 
 //media queries
-$break-small: 545px;
+// $break-small: 545px;
+$break-small: 770px;
+$break-xsmall: 410px;
