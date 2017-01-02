@@ -1,0 +1,60 @@
+.top-nav {
+  background: $primary;
+  color: $text-icons;
+  box-shadow: 0 1px 4px rgba(90, 90, 90, .6);
+
+  .top-bar {
+    padding: 0;
+  }
+}
+
+.active {
+	// background: $dark-primary;
+  border-bottom: 4px solid $accent;
+  line-height: 2.4 !important;
+  color: $text-icons !important;
+  // text-shadow: 0px 0px 7px darken($teal, 12%);
+  @media (max-width: $break-small) {
+    line-height: 1.7 !important;
+    // font-size: 1.3em;
+    // padding: .25em .3em;
+  }
+}
+
+.cursive {
+  font-family: $cursive;
+
+  &.menu-text {
+    font-weight: 100;
+    font-size:2em;
+    padding: .2em .7em;
+    line-height: 1.5;
+
+    @media (max-width: $break-small) {
+      line-height: 1.65;
+      font-size: 1.3em;
+      padding: .25em .3em;
+    }
+  }
+}
+
+.menu {
+  li {
+    a {
+      line-height: 2.5;
+      color: $light-primary;
+      font-weight: bold;
+      padding: .7rem 1rem;
+      text-transform: uppercase;
+
+      @media (max-width: $break-small) {
+        line-height: 1.9;
+        font-size: .95rem;
+        padding: .6rem .7rem;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.top-bar-left, .top-bar-right {width: initial;}
