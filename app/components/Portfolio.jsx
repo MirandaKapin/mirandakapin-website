@@ -6,35 +6,42 @@ const Portfolio = React.createClass({
       <div className="row">
         <div className="medium-10 medium-offset-1 columns">
 
-          <div className="pg-content">
+          <div className="">
             <h1 className="text-center">Portfolio</h1>
             <div className="row">
 
-              <div className="large-3 medium-6 columns">
+              <div className="medium-6 columns tile">
+                <div className="inside">
+                  <a href="http://s.codepen.io/Mkapin/debug/bBPjLd" target="_blank" >
+                    <div>
+                      <image src="images/calculator.png"></image>
+                    </div>
+                    <h5>Calculator</h5>
+                  </a>
+                </div>
+              </div>
 
-                <div>
-                  Contents here
-                </div>
-                <h5>Something 1</h5>
-              </div>
-              <div className="large-3 medium-6 columns">
-                <h4>Something 2</h4>
-                <div>
-                  Contents here
-                </div>
-              </div>
-              <div className="large-3 medium-6 columns">
-                <h4>Something 3</h4>
-                <div>
-                  Contents here
+              <div className="medium-6 columns tile">
+                <div className="inside">
+                  <a href="http://s.codepen.io/Mkapin/debug/VmzNXo" target="_blank" >
+                    <div>
+                      <image src="images/wikipedia.png"></image>
+                    </div>
+                    <h5>Search Wikipedia</h5>
+                  </a>
                 </div>
               </div>
-              <div className="large-3 medium-6 columns">
-                <h4>Something 4</h4>
-                <div>
-                  Contents here
+              <div className="medium-6 columns tile">
+                <div className="inside">
+                  <a href="http://s.codepen.io/Mkapin/debug/jVLQQW" target="_blank" >
+                    <div>
+                      <image src="images/WeatherProject.png"></image>
+                    </div>
+                    <h5>Weather Application</h5>
+                  </a>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
