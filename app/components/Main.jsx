@@ -37,27 +37,29 @@ var Main = React.createClass({
         <Sticky>
           <Nav/>
         </Sticky>
-        {/*<div className="space"></div>*/}
 
-        <Element name="home" className="element" >
-          <Home />
-        </Element>
+        <div className="">
+          <Element name="home" className="element space" >
+            <Home />
+          </Element>
 
-        <Element name="portfolio" className="element">
-          <Portfolio />
-        </Element>
 
-        <Element name="experience" className="element">
-          Experience
-        </Element>
+          <Element name="portfolio" className="element">
+            <Portfolio />
+          </Element>
 
-        <Element name="education" className="element">
-          Education
-        </Element>
+          <Element name="experience" className="element">
+            Experience
+          </Element>
 
-        <Element name="contact" className="element">
-          Contact
-        </Element>
+          <Element name="education" className="element">
+            Education
+          </Element>
+
+          <Element name="contact" className="element">
+            Contact
+          </Element>
+        </div>
 
 
 

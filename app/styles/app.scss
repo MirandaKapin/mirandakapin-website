@@ -7,17 +7,21 @@
 
 // Components
 @import "components/nav";
+@import "components/home";
 
 body {
 	margin: 0 !important;
 	padding: 0 !important;
   background: #f1f1f1;
+  color: $primary-text;
   font-family: $main-font;
+
 }
 .element {
 	min-height:500px;
-  margin-top: -50px;
-  padding-top: 60px;
+  margin-top: -60px;
+  padding-top: 120px;
+  margin-bottom: 110px;
 
   @media (max-width: $break-small) {
     margin-top: -110px;
@@ -30,7 +34,16 @@ body {
   }
 }
 .space {
-
+  background: #f1f1f1
+    url('https://image.shutterstock.com/z/stock-photo-office-table-with-notebook-computer-keyboard-mouse-cup-of-coffee-tablet-pc-and-smartphone-copy-317730413.jpg')
+    no-repeat center center fixed;
+  // -webkit-background-size: 35% auto;
+  // -moz-background-size: 35% auto;
+  // -o-background-size: 35% auto;
+  background-size: cover;
+  max-height: 500px;
+  height: 100%;
+  // top: -30%;
 }
 .pg-content {
   background: #fff;
@@ -46,4 +59,8 @@ body {
 h1, h2, h3, h4, h5 {
 
   // color: $primary;
+}
+
+.top-padding {
+  padding-top:30px;
 }
