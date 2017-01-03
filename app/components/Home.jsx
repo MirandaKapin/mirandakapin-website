@@ -20,7 +20,7 @@ const Home = React.createClass({
                   <div className="medium-9 small-12 columns">
                     <div className="main-header">
                       <h2>I&#39;m <strong>Miranda Kapin</strong></h2>
-                      <h5 className="sub-heading">Product Developer</h5>
+                      <h5 className="sub-heading">Web Developer / Product Manager</h5>
                     </div>
 
 

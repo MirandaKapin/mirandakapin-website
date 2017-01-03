@@ -21,7 +21,10 @@ body {
 	min-height:500px;
   margin-top: -60px;
   padding-top: 120px;
-  margin-bottom: 110px;
+
+  &[name="home"] {
+    margin-bottom: 110px;
+  }
 
   @media (max-width: $break-small) {
     margin-top: -110px;
@@ -72,15 +75,68 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     background: $white;
     box-shadow: 0px 0px 5px #ccc;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 
-    img {
-      width: 100%;
+    .wrapper {
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+
+        &:hover {
+          -moz-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
     }
 
     h5 {
       padding: 15px;
       color: $primary-text;
-      border-bottom: 2px solid $accent;
+      border-top: 2px solid $accent;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .job {
+    border-top: 2px solid $accent;
+    background: $white;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    text-align: center;
+
+    .dates {
+      color: $primary;
+      font-size: .85em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .location {
+      font-weight: 700;
+      font-size: 1.2em;
+    }
+    .title {
+      font-size: .75em;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+    .description {
+      margin-top: 1.5em;
+      text-align: left;
+      font-size: .85em;
+      .li {
+        display: list-item;
+        margin-left: 15px;
+      }
     }
   }
 }

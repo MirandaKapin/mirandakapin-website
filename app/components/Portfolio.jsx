@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 
 const Portfolio = React.createClass({
   render () {
@@ -13,7 +13,7 @@ const Portfolio = React.createClass({
               <div className="medium-6 columns tile">
                 <div className="inside">
                   <a href="http://s.codepen.io/Mkapin/debug/bBPjLd" target="_blank" >
-                    <div>
+                    <div className="wrapper">
                       <image src="images/calculator.png"></image>
                     </div>
                     <h5>Calculator</h5>
@@ -24,7 +24,7 @@ const Portfolio = React.createClass({
               <div className="medium-6 columns tile">
                 <div className="inside">
                   <a href="http://s.codepen.io/Mkapin/debug/VmzNXo" target="_blank" >
-                    <div>
+                    <div className="wrapper">
                       <image src="images/wikipedia.png"></image>
                     </div>
                     <h5>Search Wikipedia</h5>
@@ -34,7 +34,7 @@ const Portfolio = React.createClass({
               <div className="medium-6 columns tile">
                 <div className="inside">
                   <a href="http://s.codepen.io/Mkapin/debug/jVLQQW" target="_blank" >
-                    <div>
+                    <div className="wrapper">
                       <image src="images/WeatherProject.png"></image>
                     </div>
                     <h5>Weather Application</h5>

@@ -6,6 +6,7 @@ import { StickyContainer, Sticky } from 'react-sticky';
 import Nav from 'Nav';
 import Home from 'Home';
 import Portfolio from 'Portfolio';
+import Experience from 'Experience';
 
 var durationFn = function(deltaTop) {
     return deltaTop;
@@ -49,7 +50,7 @@ var Main = React.createClass({
           </Element>
 
           <Element name="experience" className="element">
-            Experience
+            <Experience />
           </Element>
 
           <Element name="education" className="element">
