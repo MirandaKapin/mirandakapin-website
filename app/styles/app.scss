@@ -38,15 +38,15 @@ body {
 }
 .space {
   background: #f1f1f1
-    url('https://image.shutterstock.com/z/stock-photo-office-table-with-notebook-computer-keyboard-mouse-cup-of-coffee-tablet-pc-and-smartphone-copy-317730413.jpg')
+    // url('https://image.shutterstock.com/z/stock-photo-office-table-with-notebook-computer-keyboard-mouse-cup-of-coffee-tablet-pc-and-smartphone-copy-317730413.jpg')
+    url('/images/desk.jpg')
     no-repeat center center fixed;
-  // -webkit-background-size: 35% auto;
-  // -moz-background-size: 35% auto;
-  // -o-background-size: 35% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   max-height: 500px;
   height: 100%;
-  // top: -30%;
 }
 .pg-content {
   background: #fff;
@@ -54,15 +54,6 @@ body {
   padding: 1.25em 2em;
 }
 
-// .circle {
-//   border-radius: 50%;
-//   // transform: rotate(-30deg);
-// }
-
-h1, h2, h3, h4, h5 {
-
-  // color: $primary;
-}
 
 .top-padding {
   padding-top:30px;

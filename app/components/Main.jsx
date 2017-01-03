@@ -53,13 +53,13 @@ var Main = React.createClass({
             <Experience />
           </Element>
 
-          <Element name="education" className="element">
-            Education
+          {/*<Element name="education" className="element text-center">
+            Education - In Progress
           </Element>
 
-          <Element name="contact" className="element">
-            Contact
-          </Element>
+          <Element name="contact" className="element text-center">
+            Contact - In Progress
+          </Element>*/}
         </div>
 
 
