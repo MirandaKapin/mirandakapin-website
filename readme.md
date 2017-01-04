@@ -1,3 +1,3 @@
-Miranda Kapin Website
+# Miranda Kapin Website
 
-located at mirandakapin.com
+[Location](www.mirandakapin.com)
