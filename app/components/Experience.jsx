@@ -41,12 +41,15 @@ const Experience = React.createClass({
                     <div className="location">Guthy-Renker</div>
                     <div className="title">Front-End Developer / <br/>Demandware Developer</div>
                     <div className="description">
-                      Built the front-end architecture for getDepend.com mobile.
-                      Created new landing pages, templates, and scripts for several <b>ecommerce</b> websites.
-                      Managed workload for other developers.
-                      Trained new developers on <b>Demandware</b> and the development environment.
-                      Implemented javascript pixels in our sites for user tracking with <b>Omniture</b>.
-                      Created proof of concepts for emerging projects. Performed maintenance work on production websites, including bugs and outages.
+                      <span><b>Accomplishments</b></span>
+                        <span className="li">Built the front-end architecture for getdepend.com&apos;s mobile site.</span>
+                        <br/>
+                      <span><b>Responsibilities</b></span>
+                        <span className="li">Created new landing pages, templates, and scripts for several ecommerce websites.</span>
+                        <span className="li">Managed workload for other developers.</span>
+                        <span className="li">Trained new developers on <b>Demandware</b> and the development environment.</span>
+                        <span className="li">Implemented <b>Javascript</b> pixels in our sites for user tracking with <b>Omniture</b>.</span>
+                        <span className="li">Created proofs of concept for emerging projects.</span>
                     </div>
                   </div>
                 </div>
@@ -57,10 +60,11 @@ const Experience = React.createClass({
                     <div className="location">UCLA Alumni Association</div>
                     <div className="title">Programmer/Analyst</div>
                     <div className="description">
-                      Create internal and external web applications for reporting.
-                      Manage internal website for any bugs that come up.
-                      Create and update reports requested by members of the team.
-                      Used <b>HTML</b>, <b>CSS</b>, <b>Javascript/jQuery</b>, <b>Coldfusion</b>, and <b>SQL</b>.
+                      <span><b>Responsibilities</b></span>
+                        <span className="li">Created internal and external web applications for reporting.</span>
+                        <span className="li">Managed internal website for any bugs that came up.</span>
+                        <span className="li">Created and updated reports requested by members of the team. </span>
+                        <span className="li">Used <b>HTML</b>, <b>CSS</b>, <b>Javascript/jQuery</b>, <b>Coldfusion</b>, and <b>SQL</b>.</span>
 
                     </div>
                   </div>
@@ -72,10 +76,11 @@ const Experience = React.createClass({
                     <div className="location">Aurora Capital Group</div>
                     <div className="title">Accounting Clerk</div>
                     <div className="description">
-                      Managed over 50 bank accounts.
-                      Evaluated and Optimized spending.
-                      Developed Excel Spreadsheets to increase productivity and manage human error.
-                      Reconciled accounts every month to insure accuracy.
+                      <span><b>Responsibilities</b></span>
+                        <span className="li">Managed over 50 bank accounts.</span>
+                        <span className="li">Evaluated and Optimized spending.</span>
+                        <span className="li">Developed Excel Spreadsheets to increase productivity and manage human error.</span>
+                        <span className="li">Reconciled accounts every month to insure accuracy.</span>
 
                     </div>
                   </div>
