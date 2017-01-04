@@ -36,7 +36,7 @@ const Education = React.createClass({
                 <div className="medium-6 columns tile">
                   <div className="job">
                     <div className="dates">2008 - 2013</div>
-                    <div className="location">University of California, Los Angeles</div>
+                    <div className="location">University of California, Los&nbsp;Angeles</div>
                     <div className="title">B.S. Mathematics Applied Science<br/>Minor in Statistics</div>
                     <div className="description"></div>
                   </div>

@@ -17,16 +17,20 @@ const Experience = React.createClass({
                     <div className="location">Transplant Connect</div>
                     <div className="title">Business Analyst</div>
                     <div className="description">
-                      <span className="li">Interviewed clients to determine pain points in their proccesses.</span>
-                      <span className="li">Built prototypes to validate our upcoming products or features.</span>
-                      <span className="li">Shadowed users of our system to see how they used our systems.</span>
-                      <span className="li">Analyzed of log files for determining the most used devices with our product for determining future focus.</span>
-                      <span className="li">Gathered data of client usage of the system to help determine needs.</span>
-                      <span className="li">Handled requests from clients; formatted requests into user stories, received estimates from required development teams, and prioritized projects as per executive direction.</span>
-                      <span className="li">Prioritized work through backlog grooming for current and future sprints.</span>
-                      <span className="li">Created non-technical documentation with Confluence for tracking of current implementations and centralized team knowledge.</span>
-                      <span className="li">Created workflow diagrams for conveying complicated processes.</span>
-                      <span className="li">Presented released projects to clients via broadcasted webinars.</span>
+                      <span><b>Accomplishments</b></span>
+                        <span className="li">Managed the creation of a mobile web application from discovery, UI design, content planning, execution, QA and delivery.</span>
+                        <span className="li">Created reusable release notes generator by using <b>Jira</b>&apos;s <b>REST API</b> with <b>Python</b>.</span>
+                        <br/>
+                      <span><b>Responsibilities</b></span>
+                        <span className="li">Interviewed clients to determine pain points and inefficiencies in their processes.</span>
+                        <span className="li">Built prototypes with <b>ReactJS</b> to validate our upcoming products or features.</span>
+                        <span className="li">Shadowed users to see how they used our systems.</span>
+                        <span className="li">Analyzed log files for determining customer usage patterns and devices for prioritizing future work.</span>
+                        <span className="li">Handled requests from clients; formatted requests into user stories, received estimates from required development teams, and prioritized projects as per executive direction.</span>
+                        <span className="li">Prioritized work through backlog grooming for current and future sprints.</span>
+                        <span className="li">Created documentation in Confluence for non-technical individuals to track software implementation details as well as centralize team knowledge.</span>
+                        <span className="li">Created workflow diagrams for conveying complicated processes.</span>
+                        <span className="li">Presented released projects to clients via broadcasted webinars.</span>
                     </div>
                   </div>
                 </div>
