@@ -12,32 +12,35 @@ const Portfolio = React.createClass({
 
               <div className="medium-6 columns tile">
                 <div className="inside">
-                  <a href="http://s.codepen.io/Mkapin/debug/bBPjLd" target="_blank" >
+                  <a href="http://codepen.io/Mkapin/full/bBPjLd/" target="_blank" >
                     <div className="wrapper">
                       <image src="images/calculator.png"></image>
                     </div>
                     <h5>Calculator</h5>
+                    <p>Codepen.io, HTML, CSS/SCSS, Javascript</p>
                   </a>
                 </div>
               </div>
 
               <div className="medium-6 columns tile">
                 <div className="inside">
-                  <a href="http://s.codepen.io/Mkapin/debug/VmzNXo" target="_blank" >
+                  <a href="http://codepen.io/Mkapin/full/VmzNXo/" target="_blank" >
                     <div className="wrapper">
                       <image src="images/wikipedia.png"></image>
                     </div>
                     <h5>Search Wikipedia</h5>
+                    <p>Codepen.io, HTML, CSS/SCSS, Javascript, Wikipedia API</p>
                   </a>
                 </div>
               </div>
               <div className="medium-6 columns tile">
                 <div className="inside">
-                  <a href="http://s.codepen.io/Mkapin/debug/jVLQQW" target="_blank" >
+                  <a href="http://codepen.io/Mkapin/full/jVLQQW/" target="_blank" >
                     <div className="wrapper">
                       <image src="images/WeatherProject.png"></image>
                     </div>
                     <h5>Weather Application</h5>
+                    <p>Codepen.io, HTML, CSS/SCSS, Javascript, Open Weather API</p>
                   </a>
                 </div>
               </div>
