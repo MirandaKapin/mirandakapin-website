@@ -10,6 +10,7 @@ const Education = React.createClass({
             <div className="">
               <h1 className="text-center">Education</h1>
               <div className="row">
+
                 <div className="medium-6 columns tile">
                   <div className="job">
                     <div className="dates">2008 - 2013</div>
@@ -18,12 +19,12 @@ const Education = React.createClass({
                     <div className="description"></div>
                   </div>
                 </div>
-                
+
                 <div className="medium-6 columns tile">
                   <div className="job">
                     <div className="dates">October 2016</div>
                     <div className="location">Product Manager Training</div>
-                    <div className="title">Santa Monica, California</div>
+                    <div className="title">Santa Monica, California<br/>&nbsp;</div>
                     <div className="description">
 
                     </div>
@@ -34,7 +35,7 @@ const Education = React.createClass({
                   <div className="job">
                     <div className="dates">November 2014</div>
                     <div className="location">Agile/Scrum Training</div>
-                    <div className="title">Santa Monica, California</div>
+                    <div className="title">Santa Monica, California<br/>&nbsp;</div>
                     <div className="description">
 
                     </div>
@@ -45,7 +46,7 @@ const Education = React.createClass({
                   <div className="job">
                     <div className="dates">October 2013</div>
                     <div className="location">Demandware Training</div>
-                    <div className="title">Demandware Certification</div>
+                    <div className="title">Demandware Certification<br/>&nbsp;</div>
                     <div className="description"></div>
                   </div>
                 </div>
