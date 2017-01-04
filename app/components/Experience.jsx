@@ -42,7 +42,7 @@ const Experience = React.createClass({
                     <div className="title">Front-End Developer / <br/>Demandware Developer</div>
                     <div className="description">
                       <span><b>Accomplishments</b></span>
-                        <span className="li">Built the front-end architecture for getdepend.com&apos;s mobile site.</span>
+                        <span className="li">Built the front-end architecture for GetDepend&apos;s mobile site.</span>
                         <br/>
                       <span><b>Responsibilities</b></span>
                         <span className="li">Created new landing pages, templates, and scripts for several ecommerce websites.</span>
@@ -80,7 +80,7 @@ const Experience = React.createClass({
                         <span className="li">Managed over 50 bank accounts.</span>
                         <span className="li">Evaluated and Optimized spending.</span>
                         <span className="li">Developed Excel Spreadsheets to increase productivity and manage human error.</span>
-                        <span className="li">Reconciled accounts every month to insure accuracy.</span>
+                        <span className="li">Reconciled accounts every month to ensure accuracy.</span>
 
                     </div>
                   </div>
