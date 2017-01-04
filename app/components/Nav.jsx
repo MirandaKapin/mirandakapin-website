@@ -57,13 +57,13 @@ var Nav = React.createClass({
 
                     </Link>
                 </li>
-              {/*  <li>
+                <li>
                   <Link activeClass="active" className="education" to="education" spy={true} smooth={true} duration={500} >
                     <div className="xs"><FontAwesome name='graduation-cap' /></div>
                     <span className="sm">Education</span>
                   </Link>
                 </li>
-                <li>
+                {/*  <li>
                   <Link activeClass="active" className="contact" to="contact" spy={true} smooth={true} duration={500} >
                     <div className="xs"><FontAwesome name='phone' /></div>
                     <span className="sm">Contact</span>

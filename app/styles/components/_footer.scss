@@ -1,0 +1,17 @@
+.footer {
+  background: $primary;
+  color: $light-primary;
+  text-align: center;
+  padding: 1em;
+
+  .icons {
+    a {
+      color: $accent;
+      padding: 5px;
+
+      &:hover {
+        color: lighten($accent, 10%);
+      }
+    }
+  }
+}

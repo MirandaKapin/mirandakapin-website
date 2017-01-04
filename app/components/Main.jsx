@@ -7,6 +7,9 @@ import Nav from 'Nav';
 import Home from 'Home';
 import Portfolio from 'Portfolio';
 import Experience from 'Experience';
+import Education from 'Education';
+
+import Footer from 'Footer';
 
 var durationFn = function(deltaTop) {
     return deltaTop;
@@ -53,17 +56,17 @@ var Main = React.createClass({
             <Experience />
           </Element>
 
-          {/*<Element name="education" className="element text-center">
-            Education - In Progress
+          <Element name="education" className="element">
+            <Education />
           </Element>
 
-          <Element name="contact" className="element text-center">
+          {/*<Element name="contact" className="element text-center">
             Contact - In Progress
           </Element>*/}
         </div>
 
 
-
+        <Footer />
       </StickyContainer>
     );
   }
