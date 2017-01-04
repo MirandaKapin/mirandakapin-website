@@ -10,7 +10,15 @@ const Education = React.createClass({
             <div className="">
               <h1 className="text-center">Education</h1>
               <div className="row">
-
+                <div className="medium-6 columns tile">
+                  <div className="job">
+                    <div className="dates">2008 - 2013</div>
+                    <div className="location">University of California, Los&nbsp;Angeles</div>
+                    <div className="title">B.S. Mathematics Applied Science<br/>Minor in Statistics</div>
+                    <div className="description"></div>
+                  </div>
+                </div>
+                
                 <div className="medium-6 columns tile">
                   <div className="job">
                     <div className="dates">October 2016</div>
@@ -30,15 +38,6 @@ const Education = React.createClass({
                     <div className="description">
 
                     </div>
-                  </div>
-                </div>
-
-                <div className="medium-6 columns tile">
-                  <div className="job">
-                    <div className="dates">2008 - 2013</div>
-                    <div className="location">University of California, Los&nbsp;Angeles</div>
-                    <div className="title">B.S. Mathematics Applied Science<br/>Minor in Statistics</div>
-                    <div className="description"></div>
                   </div>
                 </div>
 
