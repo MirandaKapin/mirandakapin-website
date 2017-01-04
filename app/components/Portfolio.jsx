@@ -17,7 +17,7 @@ const Portfolio = React.createClass({
                       <image src="images/calculator.png"></image>
                     </div>
                     <h5>Calculator</h5>
-                    <p>Codepen.io, HTML, CSS/SCSS, Javascript</p>
+                    <h6>Codepen.io, HTML, CSS/SCSS, Javascript</h6>
                   </a>
                 </div>
               </div>
@@ -29,7 +29,7 @@ const Portfolio = React.createClass({
                       <image src="images/wikipedia.png"></image>
                     </div>
                     <h5>Search Wikipedia</h5>
-                    <p>Codepen.io, HTML, CSS/SCSS, Javascript, Wikipedia API</p>
+                    <h6>Codepen.io, HTML, CSS/SCSS, Javascript, Wikipedia API</h6>
                   </a>
                 </div>
               </div>
@@ -40,7 +40,7 @@ const Portfolio = React.createClass({
                       <image src="images/WeatherProject.png"></image>
                     </div>
                     <h5>Weather Application</h5>
-                    <p>Codepen.io, HTML, CSS/SCSS, Javascript, Open Weather API</p>
+                    <h6>Codepen.io, HTML, CSS/SCSS, Javascript, Open&nbsp;Weather&nbsp;API</h6>
                   </a>
                 </div>
               </div>

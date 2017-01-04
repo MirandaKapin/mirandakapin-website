@@ -89,12 +89,18 @@ body {
     }
 
     h5 {
-      padding: 15px;
+      padding: 15px 15px 0 15px;
       color: $primary-text;
       border-top: 2px solid $accent;
       font-weight: bold;
       text-align: center;
       text-transform: uppercase;
+    }
+		h6 {
+      padding: 0 15px 15px 15px;
+      color: $primary-text;
+      text-align: center;
+			font-size: .8rem;
     }
   }
 
