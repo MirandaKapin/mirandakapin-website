@@ -9,6 +9,18 @@ const Portfolio = React.createClass({
           <div className="">
             <h1 className="text-center">Portfolio</h1>
             <div className="row">
+              http://calm-tor-49966.herokuapp.com/
+              <div className="medium-6 columns tile">
+                <div className="inside">
+                  <a href="http://calm-tor-49966.herokuapp.com/" target="_blank" >
+                    <div className="wrapper">
+                      <image src="images/timer.png"></image>
+                    </div>
+                    <h5>Timer Application</h5>
+                    <h6>Heroku, ReactJS, Javascript, HTML, CSS/SCSS</h6>
+                  </a>
+                </div>
+              </div>
 
               <div className="medium-6 columns tile">
                 <div className="inside">
