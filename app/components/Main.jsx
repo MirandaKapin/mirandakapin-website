@@ -47,14 +47,15 @@ var Main = React.createClass({
             <Home />
           </Element>
 
+          <Element name="experience" className="element">
+            <Experience />
+          </Element>
 
           <Element name="portfolio" className="element">
             <Portfolio />
           </Element>
 
-          <Element name="experience" className="element">
-            <Experience />
-          </Element>
+
 
           <Element name="education" className="element">
             <Education />

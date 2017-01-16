@@ -45,18 +45,19 @@ var Nav = React.createClass({
                   </Link>
                 </li>
                 <li>
-                  <Link activeClass="active" className="portfolio" to="portfolio" spy={true} smooth={true} duration={500} >
-                    <div className="xs"><FontAwesome name='briefcase' /></div>
-                    <span className="sm">Portfolio</span>
-                  </Link>
-                </li>
-                <li>
                   <Link activeClass="active" className="experience" to="experience" spy={true} smooth={true} duration={500} >
                     <div className="xs"><FontAwesome name='building' /></div>
                     <span className="sm">Experience</span>
 
                     </Link>
                 </li>
+                <li>
+                  <Link activeClass="active" className="portfolio" to="portfolio" spy={true} smooth={true} duration={500} >
+                    <div className="xs"><FontAwesome name='briefcase' /></div>
+                    <span className="sm">Portfolio</span>
+                  </Link>
+                </li>
+
                 <li>
                   <Link activeClass="active" className="education" to="education" spy={true} smooth={true} duration={500} >
                     <div className="xs"><FontAwesome name='graduation-cap' /></div>
